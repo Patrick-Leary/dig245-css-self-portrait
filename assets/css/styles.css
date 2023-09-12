@@ -1,19 +1,50 @@
-
 /* css */
 
 h1 {
     color: red;
     font-weight: bold;
-}
-.head {
+  }
+  .head {
+    position: relative;
     background-color: bisque;
-    border-radius: 50%;
+    border-radius: 40%;
     width: 150px;
     height: 250px;
-}
-.eye {
+    left: 40%;
+  }
+  .eye1 {
+    position: relative;
     background-color: white;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
-}
+    width: 25px;
+    height: 25px;
+    top: 90px;
+    left: 40px;
+  }
+  .eye2 {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    top: 65px;
+    left: 85px;
+  }
+  .pupil {
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 8px;
+    left: 9px;
+  }
+  .mouth{
+    position: relative;
+    background-color: black;
+    width: 60px;
+    height: 10px;
+    top: 115px;
+    left: 45px;
+  }
+  
