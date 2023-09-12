@@ -1,8 +1,19 @@
 
 /* css */
 
-body { color: purple;}
 h1 {
     color: red;
     font-weight: bold;
+}
+.head {
+    background-color: bisque;
+    border-radius: 50%;
+    width: 150px;
+    height: 250px;
+}
+.eye {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
